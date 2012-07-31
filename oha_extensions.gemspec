@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["cp@bookrenter.com"]
   gem.description   = %q{Extends Object, Hash and Array classes with additional methods.}
   gem.summary       = %q{Additional methods for Object, Hash, Array classes.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/bkr/oha_extensions"
 
   gem.add_development_dependency('mocha', '0.9.8')
   gem.add_development_dependency('shoulda', "2.11.3")
