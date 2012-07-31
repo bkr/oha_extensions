@@ -1,6 +1,6 @@
 # OhaExtensions
 
-Gem adds additional methods listed below to Object, Hash and Array classes.
+Gem adds convenience methods listed below to Object, Hash and Array classes.
 
 ## Installation
 
@@ -20,30 +20,30 @@ Or install it yourself as:
 
 ### Object extension methods:
 
-#####has_additional_functionality_in(*files)
-#####send_if_respond_to(method, *args)
+  * has_additional_functionality_in(*files)
+  * send_if_respond_to(method, *args)
 
 ### Hash extension methods:
 
-#####sum(&block)
-#####increment(key, amount=1, &block)
-#####percent(key, &block)
-#####assert_required_keys(*required_keys)
-#####select_pairs(&block)
-#####Hash.from_xml_string(s, options = {})
+  * sum(&block)
+  * increment(key, amount=1, &block)
+  * percent(key, &block)
+  * assert_required_keys(*required_keys)
+  * select_pairs(&block)
+  * Hash.from_xml_string(s, options = {})
 
 ### Array extension methods:
 
-#####stats
-#####average
-#####process_in_batches(batch_size)
-#####to_hash_with_keys(options={}, &block)
-#####to_lookup_hash()
-#####to_identity_hash(id_proc = nil)
-#####rand
-#####next
-#####shuffle
-#####delete(first_element)
+  * stats
+  * average
+  * process_in_batches(batch_size)
+  * to_hash_with_keys(options={}, &block)
+  * to_lookup_hash()
+  * to_identity_hash(id_proc = nil)
+  * rand
+  * next
+  * shuffle
+  * delete(first_element)
 
 
 # Credits
