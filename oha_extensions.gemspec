@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Additional methods for Object, Hash, Array classes.}
   gem.homepage      = "https://github.com/bkr/oha_extensions"
 
-  gem.add_development_dependency('mocha', '0.9.8')
-  gem.add_development_dependency('shoulda', "2.11.3")
-  gem.add_dependency('nokogiri', '1.4.4')
+  gem.add_development_dependency('mocha', '> 0')
+  gem.add_development_dependency('shoulda', "> 0")
+  gem.add_dependency('nokogiri', '> 0')
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
